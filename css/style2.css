@@ -1,0 +1,204 @@
+
+body {
+	background: #f7f7f7 url('../images/bg.jpg');
+	height: 100%;
+	color: #696969;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	margin-top: 15px;
+	padding-top: 15px;
+		color: #444;
+
+}
+
+h4 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #444;
+}
+
+a {
+	text-decoration: none;
+	color: #AAA;
+}
+a:hover {
+	color: #888;
+}
+
+
+/* Containing wrapper */
+#container
+{
+	width: 90%;
+	margin: 10px auto;
+	background-color: #fff;
+	border: 1px solid gray;
+	line-height: 130%;
+
+	-webkit-box-shadow: 1px 0px 5px #000000;
+	-moz-box-shadow: 1px 0px 5px #000000;
+	box-shadow: 1px 0px 5px #000000;
+}
+
+
+
+	/* ## HEADER - Logo en Titel */
+
+	header {
+		padding: .5em;
+		background-color: #eee;
+		border-bottom: 1px solid gray;
+		height: 110px;
+	}
+
+
+		header img#logo {
+			width: 137px;
+			height: 79px;
+			display: inline;
+			margin-top: 10px;
+			margin-right: 20px;
+		}
+
+		header h1#logo {
+			width: 195px;
+			height: 79px;
+			float: left;
+			margin-top: 10px;
+			background: url("http://lorempixel.com/175/125") no-repeat;
+		}
+
+		header h2 {
+			padding: 0;
+			margin: 0;
+			margin-left: 5px;
+			display: inline-block;
+			font-size: 24px;
+			margin-top: 38px;
+		}
+
+	/*  ## MENU TOP */
+
+	nav {
+		clear: both;
+		width: 100%;
+		border-bottom: 1px solid gray;
+		font-size: 20px;
+
+	}
+		#navlist {margin: 10px; padding: 0 0 10px 10px;}
+
+			#navlist ul, #navlist li
+			{
+				margin: 0;
+				padding: 0;
+				display: inline;
+				list-style-type: none;
+			}
+
+			#navlist a:link, #navlist a:visited
+			{
+				float: left;
+				line-height: 14px;
+				font-weight: bold;
+				margin: 0 10px 4px 10px;
+				text-decoration: none;
+				color: #999;
+			}
+
+			#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+			{
+				border-bottom: 4px solid #000;
+				padding-bottom: 2px;
+				background: transparent;
+				color: #000;
+			}
+
+			#navlist a:hover {color: #000;}
+
+
+	/* ## CONTENT */
+
+	#content {padding: 7px; margin-bottom: 143px;}
+		#content h2 { margin: 0 0 .5em 0; }
+
+		.contentLeft, .contentRight {
+			width: 45%
+
+		}
+		.contentLeft {
+			float: left;
+		}
+
+		.contentRight {
+			float: right;
+
+		}
+
+		.contentBottom {
+			clear: both;
+
+		}
+
+		.contentBottom p{
+			margin-top: 0px;
+			padding-top: 0px;
+		}
+		.contentBottom ul {
+			list-style: none;
+			margin-left: 0px;
+			padding-left: 0px;
+
+		}
+		.contentBottom li:before {
+			content: "☞";
+		}
+
+
+		.boldtekst {
+			font-weight: 900;
+		}
+		.schuinetekst {
+			font-style: italic;
+		}
+
+
+
+	/* ## FOOTER */
+
+	footer
+	{
+	clear: both;
+	color: #333;
+	width: 90%;
+	height: 150px;
+	border-top: 1px solid gray;
+	border-bottom: solid 1px gray;
+	background: #eee;
+	position: fixed;
+	bottom: 12px;
+
+	-webkit-box-shadow: 1px 1px 5px #000000;
+	-moz-box-shadow: 1px 1px 5px #000000;
+	box-shadow: 1px 1px 5px #000000;
+	}
+
+		.footerInside div {
+			width: 32%;
+			display: inline-block;
+		}
+		.footerInside ul {
+			list-style: none;
+		}
+		.footerInside ol {
+			list-style: decimal;
+		}
+
+
+
+
+
+
+

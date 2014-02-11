@@ -1,0 +1,26 @@
+ul {
+	padding-left: 0px;
+}
+
+
+li { 
+list-style: none;
+display: inline;
+padding-right: 10px;
+}
+
+body { 
+
+width: 600px;
+margin: auto;
+}
+
+body > header {
+
+	background:#f00;
+}
+
+.content {
+
+	background: #5F5;
+}
